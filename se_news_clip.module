@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the News Clip feature.
+ * Code for the News:Clip feature.
  */
 
 include_once 'se_news_clip.features.inc';
