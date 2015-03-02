@@ -267,6 +267,114 @@ function se_news_clip_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-se_news_clip-field_se_news_clip_image'
+  $field_instances['node-se_news_clip-field_se_news_clip_image'] = array(
+    'bundle' => 'se_news_clip',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'field_formatter_class' => '',
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 7,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'list' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'field_formatter_class' => '',
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_se_news_clip_image',
+    'label' => 'Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'image_field_caption' => 0,
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'insert' => 0,
+        'insert_absolute' => 0,
+        'insert_class' => '',
+        'insert_default' => 'auto',
+        'insert_styles' => array(
+          'auto' => 'auto',
+          'icon_link' => 0,
+          'image' => 0,
+          'image_3-col-header' => 0,
+          'image_3-col-well-header' => 0,
+          'image_3-col-well-profile' => 0,
+          'image_4-col-header' => 0,
+          'image_6-col-banner' => 0,
+          'image_6-col-header' => 0,
+          'image_6-col-header-short' => 0,
+          'image_8-col-banner' => 0,
+          'image_9-col-banner' => 0,
+          'image_12-col-banner' => 0,
+          'image_banner' => 0,
+          'image_cap-profile-medium' => 0,
+          'image_icon' => 0,
+          'image_large' => 0,
+          'image_large-landscape' => 0,
+          'image_large-profile' => 0,
+          'image_large-square' => 0,
+          'image_med-landscape' => 0,
+          'image_med-profile' => 0,
+          'image_med-square' => 0,
+          'image_media_thumbnail' => 0,
+          'image_medium' => 0,
+          'image_promo' => 0,
+          'image_sensory-earth' => 0,
+          'image_sm-landscape' => 0,
+          'image_sm-square' => 0,
+          'image_stanfordeduhomepage' => 0,
+          'image_stanfordhomepage-full' => 0,
+          'image_thmb-landscape' => 0,
+          'image_thmb-profile' => 0,
+          'image_thmb-square' => 0,
+          'image_thumbnail' => 0,
+          'image_toolkit' => 0,
+          'link' => 0,
+        ),
+        'insert_width' => '',
+        'preview_image_style' => 'stanfordeduhomepage',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'node-se_news_clip-field_se_news_image'
   $field_instances['node-se_news_clip-field_se_news_image'] = array(
     'bundle' => 'se_news_clip',
@@ -297,13 +405,8 @@ function se_news_clip_field_default_field_instances() {
       ),
       'list' => array(
         'label' => 'hidden',
-        'module' => 'image',
-        'settings' => array(
-          'field_formatter_class' => '',
-          'image_link' => '',
-          'image_style' => '',
-        ),
-        'type' => 'image',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 0,
       ),
     ),
@@ -483,7 +586,7 @@ function se_news_clip_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -600,7 +703,7 @@ function se_news_clip_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 11,
+      'weight' => 12,
     ),
   );
 
@@ -649,7 +752,7 @@ function se_news_clip_field_default_field_instances() {
         'content_taxonomy_opt_groups' => FALSE,
       ),
       'type' => 'options_select',
-      'weight' => 10,
+      'weight' => 11,
     ),
   );
 
